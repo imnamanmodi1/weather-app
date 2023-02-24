@@ -62,7 +62,7 @@ function Search() {
   let handleFetchWeather = async (e) => {
     var config = {
       method: "get",
-      url: `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=032398c5f02f397001e93f3096d7378b`,
+      url: `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=032398c5f02f397001e93f3096d7378b`,
       headers: {},
     };
 
