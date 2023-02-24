@@ -7,7 +7,7 @@ function Weather({ weatherReport }) {
   var lon = weatherReport.coord.lon;
   var lat = weatherReport.coord.lat;
   var weathermainicon =
-    `http://openweathermap.org/img/wn/` +
+    `https://openweathermap.org/img/wn/` +
     weatherReport.weather[0].icon +
     "@2x.png";
   var weatherdiscription = weatherReport.weather[0].description;
